@@ -1,0 +1,42 @@
+
+
+import 'package:dropdown_button2/dropdown_button2.dart';
+import 'package:flutter/material.dart';
+
+Widget DropDown(String hint,List<DropdownMenuItem<String>> items,Function(String?)? onSaved,Function(String?)? onchange){
+  return DropdownButtonFormField2(
+
+    decoration: InputDecoration(
+      isDense: true,
+      contentPadding: EdgeInsets.zero,
+      border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(5),
+      ),
+    ),
+    isExpanded: true,
+    hint:  Text(
+      hint,
+      style: TextStyle(fontSize: 14),
+    ),
+    items: items,
+    onChanged: onchange,
+    onSaved: onSaved,
+    buttonStyleData: const ButtonStyleData(
+      height: 60,
+      padding: EdgeInsets.only(left: 20, right: 10),
+    ),
+    iconStyleData: const IconStyleData(
+      icon: Icon(
+        Icons.arrow_drop_down,
+        color: Colors.black45,
+      ),
+      iconSize: 30,
+    ),
+    dropdownStyleData: DropdownStyleData(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(15),
+      ),
+    ),
+  );
+
+}
