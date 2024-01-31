@@ -12,7 +12,7 @@ class Map_Controller extends GetxController {
   List<Student>Students =[];
   AuthController auth =Get.put(AuthController(), permanent: false);
   static const authEndpoint = "${AuthNetwork.baseUrl}/supervisor/bus/students";
-  static const MapboxAccessToken = "pk.eyJ1IjoiZ2hhZGVlcjU5NTkiLCJhIjoiY2xqNnZramsyMHBmajNubnhiMm9uc285MCJ9.yj-ft_7bvAlmtcCAVPtbgA";
+  static const MapboxAccessToken = "xxxxxxxxxxx";
 
   @override
   Future<void> onInit() async {
