@@ -47,8 +47,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBg4zv0Vlr6253_joYHsrQEsjsJFnN9lIg',
-    appId: '1:802183520437:web:70e2a15ca13b00ced7defc',
+    apiKey: 'xxxxxxx',
+    appId: '1:802183520437:web:xxx',
     messagingSenderId: '802183520437',
     projectId: 'my-project-66697',
     authDomain: 'my-project-66697.firebaseapp.com',
@@ -58,8 +58,8 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAJDe2sWvTX2tRJCVYQ-xm7tA0HTmsibd4',
-    appId: '1:802183520437:android:72829667df48038bd7defc',
+    apiKey: 'AIzaSyAJDe2sWvTX2tRJCVYQ-xxxxxx',
+    appId: '1:802183520437:android:xxxxxxx',
     messagingSenderId: '802183520437',
     projectId: 'my-project-66697',
     databaseURL: 'https://my-project-66697-default-rtdb.firebaseio.com',
@@ -68,12 +68,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCIpvmakMnEag9hEb1aBCp8CKzFQ1QBr9Q',
-    appId: '1:802183520437:ios:eaf8d22c93f661ffd7defc',
+    appId: '1:802183520437:ios:xxxxxxxx',
     messagingSenderId: '802183520437',
     projectId: 'my-project-66697',
     databaseURL: 'https://my-project-66697-default-rtdb.firebaseio.com',
     storageBucket: 'my-project-66697.appspot.com',
-    iosClientId: '802183520437-s2jtc4qjb16bbnuloar2cpmktg8m1c10.apps.googleusercontent.com',
+    iosClientId: '802183520437-xxxxxxxx.apps.googleusercontent.com',
     iosBundleId: 'com.example.project',
   );
 }
