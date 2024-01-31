@@ -13,7 +13,7 @@ class Map_Controller extends GetxController {
   AuthController auth =Get.find();
 
   static const authEndpoint = "${AuthNetwork.baseUrl}/buses/students";
-  static const MapboxAccessToken = "pk.eyJ1IjoiZ2hhZGVlcjU5NTkiLCJhIjoiY2xpbmlnaHAzMTE3dTNybW0zamNsZmhwbyJ9.IdDOQOVFQTT08ikk8oY23w";
+  static const MapboxAccessToken = "xxxxxxxxxxxx";
 
   @override
   Future<void> onInit() async {
