@@ -363,7 +363,7 @@ String? duration;
 
               child: MapboxMap(
                 trackCameraPosition: true,
-                accessToken: "sk.eyJ1IjoiZ2hhZGVlcjU5NTkiLCJhIjoiY2xnNDdnYzZqMGNsODNucWVsYzBzeGVrdiJ9.7gLWQmAcj-sD06_SUAl_lQ",//Map_Controller.MapboxAccessToken,
+                accessToken: "xxxxxxxxx",//Map_Controller.MapboxAccessToken,
                 initialCameraPosition: _initialCameraPosition!,
                 onMapCreated: _onMapCreated,
                 onStyleLoadedCallback: _onStyleLoadedCallback,
